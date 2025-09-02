@@ -62,15 +62,15 @@ public class Dai {
         };
         
         if(b.length()==2){
-        CodeHi(b,countryNames,countryCodes);
+        LookCode(b,countryNames,countryCodes);
         }
         else{
-        NameHi(b,countryNames,countryCodes);
+        LookName(b,countryNames,countryCodes);
         }
         
     }
 
-    public static void NameHi(String x,String[] a, String[] b) {
+    public static void LookName(String x,String[] a, String[] b) {
         //Scanner Scan = new Scanner(System.in);
         //System.out.println("Enter Name of Country:");
         //String c = Scan.nextLine().trim()
@@ -88,7 +88,7 @@ public class Dai {
         }
     }
 
-    public static void CodeHi(String x,String[] a, String[] b) {
+    public static void LookCode(String x,String[] a, String[] b) {
         //Scanner Scan = new Scanner(System.in);
         //System.out.println("Enter Code of Country:");
         //String c = Scan.nextLine().trim()
@@ -105,4 +105,4 @@ public class Dai {
             System.out.println("Not Found");
         }
     }
-}
+}            
