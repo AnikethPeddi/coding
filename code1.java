@@ -4,9 +4,7 @@ public class Dai {
 
     public static void main(String[] args) {
         Scanner a = new Scanner(System.in);
-        //System.out.println("Enter 1 for to look up by Name and 2 to look up by Code");
-       // int x = a.nextInt();
-        //a.nextLine();
+
         String b = a.nextLine();
         String[] countryNames = {
             "afghanistan", "albania", "algeria", "american samoa", "andorra", "angola", "anguilla", "antarctica",
@@ -71,9 +69,7 @@ public class Dai {
     }
 
     public static void LookName(String x,String[] a, String[] b) {
-        //Scanner Scan = new Scanner(System.in);
-        //System.out.println("Enter Name of Country:");
-        //String c = Scan.nextLine().trim()
+
         String xx=x.toLowerCase();
         int d=1;
         for (int i = 0; i < a.length; i++) {
@@ -89,9 +85,7 @@ public class Dai {
     }
 
     public static void LookCode(String x,String[] a, String[] b) {
-        //Scanner Scan = new Scanner(System.in);
-        //System.out.println("Enter Code of Country:");
-        //String c = Scan.nextLine().trim()
+
         String xx=x.toUpperCase();
         int d=1;
         for (int i = 0; i < b.length; i++) {
